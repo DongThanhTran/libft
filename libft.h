@@ -6,7 +6,7 @@
 /*   By: dtran <dtran@student.codam.nl>               +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/10/14 12:48:44 by dtran         #+#    #+#                 */
-/*   Updated: 2021/12/10 18:33:12 by dtran         ########   odam.nl         */
+/*   Updated: 2022/05/27 17:07:07 by dtran         ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -426,6 +426,12 @@ int		ft_memcmp(const void *src1, const void *src2, size_t num);
  * @returns The allocated memory area.
  */
 void	*ft_calloc(size_t count, size_t size);
+
+/**
+ * Check if malloc fails.
+ * @param ptr The pointer which has to be checked.
+ */
+void	ft_checkmalloc(void *ptr);
 
 //
 //
