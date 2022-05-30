@@ -52,7 +52,8 @@ SRCS	= 	ft_atoi.c \
 			ft_lstclear.c \
 			ft_lstiter.c \
 			ft_lstmap.c \
-			ft_checkmalloc.c
+			ft_checkmalloc.c \
+			ft_error_exit.c
 SRCS := $(SRCS:%=src/%)
 
 # if bonus needs to be added:

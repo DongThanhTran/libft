@@ -6,7 +6,7 @@
 /*   By: dtran <dtran@student.codam.nl>               +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/10/14 12:48:44 by dtran         #+#    #+#                 */
-/*   Updated: 2022/05/27 17:07:07 by dtran         ########   odam.nl         */
+/*   Updated: 2022/05/30 15:17:10 by dtran         ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -349,6 +349,13 @@ void	ft_putnbr_base(int num, char *base);
  * @param baseformat The base defined in the header.
  */
 void	ft_putnbr_baseformat(size_t num, const char *baseformat);
+
+/**
+ * Prints given str(error message) and exits.
+ * @param str Error message.
+ * @param exit_code The exit code.
+ */
+void	ft_error_exit(char *str, int exit_code);
 
 //
 //
