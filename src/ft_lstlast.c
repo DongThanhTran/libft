@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        ::::::::            */
-/*   ft_lstlast_bonus.c                                 :+:    :+:            */
+/*   ft_lstlast.c                                       :+:    :+:            */
 /*                                                     +:+                    */
 /*   By: dtran <dtran@student.codam.nl>               +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/10/27 16:33:31 by dtran         #+#    #+#                 */
-/*   Updated: 2021/11/16 16:28:27 by dtran         ########   odam.nl         */
+/*   Updated: 2022/10/04 17:41:42 by dtran         ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,11 +22,3 @@ t_list	*ft_lstlast(t_list *lst)
 	}
 	return (NULL);
 }
-
-// COMMENTS:
-
-// return (lst);
-// return de pointer die naar NULL wijst.
-
-// return (NULL);
-// dit is daadwerkelijk NULL returnen

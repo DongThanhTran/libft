@@ -6,7 +6,7 @@
 /*   By: dtran <dtran@student.codam.nl>               +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/10/08 16:41:02 by dtran         #+#    #+#                 */
-/*   Updated: 2021/11/16 19:38:26 by dtran         ########   odam.nl         */
+/*   Updated: 2022/10/04 17:49:08 by dtran         ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,9 +24,7 @@ int	ft_memcmp(const void *src1, const void *src2, size_t num)
 	while (i < num)
 	{
 		if (ptr1[i] != ptr2[i])
-		{
 			return (ptr1[i] - ptr2[i]);
-		}
 		i++;
 	}
 	return (0);

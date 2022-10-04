@@ -6,7 +6,7 @@
 /*   By: dtran <dtran@student.codam.nl>               +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/10/18 15:23:22 by dtran         #+#    #+#                 */
-/*   Updated: 2021/11/22 16:40:42 by dtran         ########   odam.nl         */
+/*   Updated: 2022/10/04 17:37:01 by dtran         ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,7 +50,3 @@ char	*ft_itoa(int num)
 	}
 	return (ptr);
 }
-
-// COMMENTS:
-
-// 	ptr[len] = '\0';// ptr[len] is at the end of ptr that's why you add \0

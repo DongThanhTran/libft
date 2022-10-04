@@ -6,7 +6,7 @@
 /*   By: dtran <dtran@student.codam.nl>               +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/10/18 15:24:16 by dtran         #+#    #+#                 */
-/*   Updated: 2021/11/16 19:52:34 by dtran         ########   odam.nl         */
+/*   Updated: 2022/10/04 17:55:05 by dtran         ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,3 @@ char	*ft_strmapi(char const *str, char (*f)(unsigned int, char))
 	ptr[idx] = '\0';
 	return (ptr);
 }
-
-// COMMENTS:
-
-// ptr[idx] is a char

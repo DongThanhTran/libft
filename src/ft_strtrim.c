@@ -6,7 +6,7 @@
 /*   By: dtran <dtran@student.codam.nl>               +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/10/18 15:24:22 by dtran         #+#    #+#                 */
-/*   Updated: 2021/11/16 19:56:32 by dtran         ########   odam.nl         */
+/*   Updated: 2022/10/04 17:57:40 by dtran         ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,7 +53,3 @@ char	*ft_strtrim(char const *str1, char const *set)
 		return (ft_strdup(""));
 	return (ft_substr(str1, start, (end - start)));
 }
-
-// COMMENTS:
-// if (ft_strchr(set, str1[idx]) == 0) "== 0 is gelijk aan false"
-// 	idx = ft_strlen(str1); hier eindigt het op de \0 daarom in je if idx - 1

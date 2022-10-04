@@ -6,16 +6,12 @@
 /*   By: dtran <dtran@student.codam.nl>               +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/11/16 19:04:18 by dtran         #+#    #+#                 */
-/*   Updated: 2021/11/16 19:08:42 by dtran         ########   odam.nl         */
+/*   Updated: 2022/10/04 17:35:38 by dtran         ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 int	ft_isspace(char c)
 {
-	while (c == '\t' || c == '\n' || c == '\v' \
-	|| c == '\f' || c == '\r' || c == ' ')
-	{
-		return (1);
-	}
-	return (0);
+	return (c == '\t' || c == '\n' || c == '\v' || c == '\f' || \
+			c == '\r' || c == ' ');
 }

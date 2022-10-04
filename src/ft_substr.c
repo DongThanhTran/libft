@@ -6,7 +6,7 @@
 /*   By: dtran <dtran@student.codam.nl>               +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/10/18 15:24:25 by dtran         #+#    #+#                 */
-/*   Updated: 2021/11/23 18:02:50 by dtran         ########   odam.nl         */
+/*   Updated: 2022/10/04 17:58:17 by dtran         ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,8 +36,3 @@ char	*ft_substr(char const *str, unsigned int start, size_t len)
 	ft_strlcpy(substring, str + start, len + 1);
 	return (substring);
 }
-
-// COMMENTS:
-
-// ft_strlcpy(substring, str + start, len + 1);
-// strlcpy purely for src --> dest.

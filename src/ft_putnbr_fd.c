@@ -6,7 +6,7 @@
 /*   By: dtran <dtran@student.codam.nl>               +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/10/18 15:23:50 by dtran         #+#    #+#                 */
-/*   Updated: 2021/11/16 19:42:49 by dtran         ########   odam.nl         */
+/*   Updated: 2022/10/04 17:51:00 by dtran         ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,7 +30,5 @@ void	ft_putnbr_fd(int num, int fd)
 		ft_putnbr_fd(num % 10, fd);
 	}
 	else
-	{
 		ft_putchar_fd(num + '0', fd);
-	}
 }
